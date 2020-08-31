@@ -1,0 +1,56 @@
+/*Elementos de neutralidad*/
+
+body {
+    height: 100vh;
+}
+
+/*Menú*/
+
+#Usuario,
+#Preguntas,
+#IniciarSesion,
+#Registro,
+#CRUD
+{
+    display: none;
+}
+
+.color{
+    color: #FFF;
+}
+
+.color:hover{
+    color: #A2A4A2;
+}
+
+/*Fondo Formulario*/
+
+.bgformulario{
+    padding: 1.5rem;
+    background: #A2A4A2;
+    color: #FFF;
+    border-radius: 1.2rem;
+}
+
+/*Alerta*/
+
+.alert{
+    display: none;
+}
+
+/*Tabla*/
+
+table tbody tr td i{
+    font-size: 1rem;
+}
+
+/*Iconos Footer*/
+
+i {
+    font-size: 2.5rem;
+}
+
+a i {
+    font-size: 1.75rem;
+}
+
